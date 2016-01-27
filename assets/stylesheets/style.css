@@ -1,0 +1,142 @@
+/***
+Beak Speak Media Master Stylesheet
+Author: Diana Mahmoud
+
+/***
+
+ a :active  #fff;
+    :hover 
+    :focus  #fff; 
+
+***/
+
+@import url('bootstrap.css') url('business-frontpage.css');
+
+body {
+    background-color: #FAF9F4;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active> .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #9C6A8D;
+    font-weight: bold;
+}
+
+
+.business-header {
+    background-color: #52b4af; center center no-repeat scroll;
+    height:  300px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.tagline img {
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar-inverse {
+    background-color: #FAF9F4;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;   
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+
+.btn-default {
+  background-color: #9C6A8D;
+  color: #fff;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.featureblock blockquote {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    float: right;
+    margin: 45px 5px 0px 0px;
+    border-left: 1px solid #FAF9F4; 
+    color: #fff;
+    font-size: #small;
+    line-height: 1.4em;
+    }
+
+.featureblock blockquote:first-letter {
+    font-size: 35px;}
+
+.circle-header {
+    text-align: center;
+}
+
+
+h2 {
+    color: #52b4af;
+}
+
+
+a {
+    color: #52b4af;
+}
+
+footer {
+    font-size: smaller;
+    margin: 20px 0px 20px 0px;
+}
+
+.wideright { text-align: right;}
+
+
+.featuretext {
+font-size: large;
+}
+   
+
+.social {
+    position: absolute;
+    top: 0;
+    right:0;
+    margin: 5px 20px; 
+}
+
+
+.caption {
+    font-size: smaller;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+
+     .social {
+        position: relative;
+        width: 200px;
+        float: left;
+     }
+
+
+    .featureblock blockquote {
+        display: none;
+    }
+}
+
+
+/*****#quotes, #quotesli{
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+#quotes{
+    width:250px;
+    font-size:16px;
+    line-height:120%;
+    }
+
+#quotes li{
+    padding:20px;
+    background:#e1e1e1;
+    display:none; /* hide the items at first only */
+    }
+
+	
+
+
