@@ -1,0 +1,115 @@
+
+/***
+Sit-Stay-Home Pet LLC Master Stylesheet
+Author: Diana Mahmoud
+
+***/
+
+@import url('bootstrap.min.css') url('bootstrap.css') url('small-business.css') ;
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background: #432F21!important;
+}
+
+.container_header {
+    background: #432F21;
+    }
+
+h1 {
+     color: #ca171B;
+}
+
+h2 {
+    color: #ca171B;
+}
+
+.navbar-nav>li>a {
+    color: #fff!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;}
+
+.pets {
+ background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.img-thumbnail {
+    float: left;
+    width: 350px;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #cdcab9!important;
+}
+
+.featuretext {
+    font-size: larger;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ca171B!important;
+    border-color: #432F21;
+    float: right;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #cdcab9;
+    border-color: #ccc;}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.justify {
+    float: right;
+}
+
+blockquote {
+
+font-size: 10pt;
+font-weight: bolder;
+margin-top: 50px;
+border-left: 2px solid #cdcab9;
+}
+
+footer {
+    
+font-size: 10pt;
+font-weight: bolder;
+
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    bottom: 30px;
+    right: 10px;
+    margin:  10px;
+}
+
+
+@media only screen and (max-width: 768px){
+
+     .social {
+        position: relative;
+        float: left;
+         width: 350px;
+     }
+}
+
+@media only screen and (max-width: 768px){
+
+   .container_header {
+    background: #432F21;
+
+    }
+}
+
+
