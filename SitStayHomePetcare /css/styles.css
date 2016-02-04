@@ -67,6 +67,10 @@ a {
     text-decoration: none;
 }
 
+a .contact {
+     color: #eee!important;
+    text-decoration: none;
+}
 .justify {
     float: right;
 }
@@ -78,6 +82,7 @@ font-weight: bolder;
 margin-top: 50px;
 border-left: 2px solid #cdcab9;
 }
+
 
 footer {
     
