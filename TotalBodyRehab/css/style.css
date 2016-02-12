@@ -1,0 +1,87 @@
+/***
+Total Body Rehab
+Author: Diana Mahmoud
+
+/***
+
+ a :active  #fff;
+    :hover 
+    :focus  #fff; 
+
+***/
+
+@import url('bootstrap.css') url('small-business.css');
+
+h2 {
+    color: #409139
+}
+
+h3 {
+ color: #588CA6;;
+
+}
+
+ blockquote {
+    border-left: 2px solid #588CA6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.4em;
+
+    }
+
+blockquote:first-letter {
+font-size: 35px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+
+.btn-lg {
+     background-color:  #588CA6;
+}
+
+
+
+.navbar-default {
+    background-color: #588CA6;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+
+.btn-default {
+    background-color: #588CA6;
+    color: #fff;
+}
+
+.well {
+
+    background-color: #588CA6;
+    color: #fff;
+}
+
+.caption {
+	font-size: smaller;
+}
+
+.social {
+	position: absolute;
+	top: 0;
+	right:0;
+	margin: 5px 20px; 
+
+}
+
+@media only screen and (max-width: 768px){
+
+     .social {
+     	position: relative;
+     	width: 120px;
+     	float: left;
+    
+     }
+}
+	
+
+
