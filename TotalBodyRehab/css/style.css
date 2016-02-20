@@ -13,14 +13,21 @@ Author: Diana Mahmoud
 @import url('bootstrap.css') url('small-business.css');
 
 h2 {
-    color: #409139
+    color: #409139;
 }
 
 h3 {
- color: #588CA6;;
+ color: #588CA6;
 
 }
 
+ li {  
+  list-style: square;
+}
+
+li:before {
+    color: #409139;/ 
+}
  blockquote {
     border-left: 2px solid #588CA6;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -44,7 +51,10 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #588CA6;
 }
 
-
+.img-responsive {
+    max-width: 100%; 
+    height: auto;
+}
 .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
@@ -71,6 +81,11 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	right:0;
 	margin: 5px 20px; 
 
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #red;
+    
 }
 
 @media only screen and (max-width: 768px){
